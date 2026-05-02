@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vikas Bayoju | Agentic AI Engineer</title>
+    <meta
+      name="description"
+      content="Immersive portfolio of Vikas Bayoju, an AI Engineer building agentic systems, LLM workflows, voice assistants, and forecasting tools."
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="boot-screen" id="bootScreen" aria-hidden="true">
+      <div class="boot-panel">
+        <p class="mono">initializing portfolio system</p>
+        <h1>VIKAS BAYOJU</h1>
+        <div class="boot-lines" id="bootLines"></div>
+        <div class="boot-progress">
+          <span id="bootProgress"></span>
+        </div>
+      </div>
+    </div>
+
+    <canvas class="signal-canvas" id="signalCanvas" aria-hidden="true"></canvas>
+    <div class="cursor-light" id="cursorLight" aria-hidden="true"></div>
+    <div class="scroll-meter" id="scrollMeter" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Go to top">
+        <img
+          class="brand-avatar"
+          src="assets/vikas-profile.jpg?v=4"
+          alt=""
+          aria-hidden="true"
+        >
+        <span>
+          <strong>Vikas Bayoju</strong>
+          <small>Agentic AI Engineer</small>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#systems">Systems</a>
+        <a href="#stack">Stack</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#proof">Proof</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">AI systems / LLM orchestration / voice agents</p>
+          <h1>
+            I build AI systems that forecast, listen, reason, and coordinate.
+          </h1>
+          <p class="hero-text">
+            AI Engineer focused on agent-based systems, chatbot design, LLM
+            integration, and real-time NLP applications. I turn experimental AI
+            ideas into working products using LangChain, LangGraph, LangSmith,
+            FastAPI, Streamlit, OpenAI APIs, Whisper, and Python.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button primary magnetic" href="#systems">Explore Systems</a>
+            <a class="button ghost magnetic" href="mailto:bayojuvikas@gmail.com">Contact</a>
+          </div>
+        </div>
+
+        <aside class="hero-orbit reveal" aria-label="Vikas Bayoju profile">
+          <div class="orbit-ring ring-one"></div>
+          <div class="orbit-ring ring-two"></div>
+          <div class="profile-core">
+            <img src="assets/vikas-profile.jpg?v=4" alt="Portrait of Vikas Bayoju">
+          </div>
+          <div class="orbit-chip chip-one">LangGraph</div>
+          <div class="orbit-chip chip-two">RAG</div>
+          <div class="orbit-chip chip-three">Voice AI</div>
+          <div class="orbit-chip chip-four">Forecasting</div>
+        </aside>
+      </section>
+
+      <section class="metrics reveal" aria-label="Portfolio highlights">
+        <article>
+          <span class="metric" data-count="10">0</span>
+          <p>Lakhs prize money at MAR-a-THON, conducted at IIT Madras Research Park.</p>
+        </article>
+        <article>
+          <span class="metric" data-count="50">0</span><span class="suffix">K+</span>
+          <p>Subscribers built with AI-assisted content workflows in one year.</p>
+        </article>
+        <article>
+          <span class="metric" data-count="5">0</span><span class="suffix">+</span>
+          <p>Applied AI builds across agents, voice, NLP, and forecasting.</p>
+        </article>
+        <article>
+          <span class="metric" data-count="8.59">0</span>
+          <p>B.Tech CGPA with a mechanical engineering foundation.</p>
+        </article>
+      </section>
+
+      <section class="section-block reveal" id="systems">
+        <div class="section-heading">
+          <p class="eyebrow">Selected systems</p>
+          <h2>Projects designed like product-grade AI workflows.</h2>
+          <div class="filter-bar" aria-label="Project filters">
+            <button class="filter active" type="button" data-filter="all">All</button>
+            <button class="filter" type="button" data-filter="forecasting">Forecasting</button>
+            <button class="filter" type="button" data-filter="agents">Agents</button>
+            <button class="filter" type="button" data-filter="voice">Voice</button>
+            <button class="filter" type="button" data-filter="nlp">NLP</button>
+          </div>
+        </div>
+
+        <div class="system-grid">
+          <article class="system-card featured magnetic" data-project="forecasting agents">
+            <div class="card-index">01</div>
+            <div class="card-content">
+              <p class="system-type">Prize-winning maritime AI</p>
+              <h3>AI Cargo Forecasting System</h3>
+              <p>
+                Shortlisted and won 10 lakhs prize money at MAR-a-THON, conducted
+                at IIT Madras Research Park. The system focused on forecasting cargo
+                volumes and incentives for maritime planning, visibility, and
+                decision support.
+              </p>
+              <ul class="detail-grid">
+                <li><span>Domain</span>India maritime sector</li>
+                <li><span>Core</span>Predictive analytics</li>
+                <li><span>Value</span>Cargo and incentive visibility</li>
+              </ul>
+            </div>
+            <div class="card-tags">
+              <span>Forecasting</span>
+              <span>Maritime AI</span>
+              <span>Decision Support</span>
+            </div>
+          </article>
+
+          <article class="system-card magnetic" data-project="agents voice">
+            <div class="card-index">02</div>
+            <div class="card-content">
+              <p class="system-type">Voice finance agent</p>
+              <h3>Multi-Agent Voice Finance Assistant</h3>
+              <p>
+                Modular assistant that delivers stock and portfolio updates using
+                specialized AI agents, LLM summarization, speech-to-text, and
+                text-to-speech.
+              </p>
+              <ul class="detail-grid">
+                <li><span>Agents</span>API, scraper, retriever, analysis, language</li>
+                <li><span>Interface</span>FastAPI and Streamlit</li>
+                <li><span>AI flow</span>Whisper, pyttsx3, RAG structure</li>
+              </ul>
+            </div>
+            <div class="card-tags">
+              <span>LangChain</span>
+              <span>Whisper</span>
+              <span>FastAPI</span>
+            </div>
+          </article>
+
+          <article class="system-card magnetic" data-project="agents">
+            <div class="card-index">03</div>
+            <div class="card-content">
+              <p class="system-type">Human-in-the-loop support</p>
+              <h3>Multi-Agent Customer Support System</h3>
+              <p>
+                Support assistant using ReAct sub-agents, long-term memory flow,
+                LangGraph workflow control, and central supervisor coordination.
+              </p>
+              <ul class="detail-grid">
+                <li><span>Agents</span>verify_info, load_memory, invoice_info</li>
+                <li><span>Workflow</span>Prompt chaining and memory update</li>
+                <li><span>Stack</span>LangGraph and LangSmith</li>
+              </ul>
+            </div>
+            <div class="card-tags">
+              <span>LangGraph</span>
+              <span>LangSmith</span>
+              <span>ReAct</span>
+            </div>
+          </article>
+
+          <article class="system-card magnetic" data-project="nlp agents">
+            <div class="card-index">04</div>
+            <div class="card-content">
+              <p class="system-type">NLP automation</p>
+              <h3>Sentiment Response Bot</h3>
+              <p>
+                Feedback classification and response-generation agent with
+                Classifier, Responder, Logger, and Escalator modules.
+              </p>
+              <ul class="detail-grid">
+                <li><span>Method</span>Few-shot prompts</li>
+                <li><span>Logic</span>Fallback handling</li>
+                <li><span>Output</span>Sentiment-tuned responses</li>
+              </ul>
+            </div>
+            <div class="card-tags">
+              <span>NLP</span>
+              <span>LLMs</span>
+              <span>Python</span>
+            </div>
+          </article>
+
+          <article class="system-card magnetic" data-project="voice">
+            <div class="card-index">05</div>
+            <div class="card-content">
+              <p class="system-type">Voice assistant</p>
+              <h3>Amazon Alexa Re-Engineered</h3>
+              <p>
+                Voice AI agent using STT, OpenAI GPT-4 API, pyttsx3 TTS,
+                role-based prompts, intent classification, and function calling.
+              </p>
+              <ul class="detail-grid">
+                <li><span>Flow</span>Listen, classify, call, respond</li>
+                <li><span>Model</span>GPT-4 API</li>
+                <li><span>Output</span>Dynamic voice interaction</li>
+              </ul>
+            </div>
+            <div class="card-tags">
+              <span>GPT-4 API</span>
+              <span>STT</span>
+              <span>TTS</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block split-section reveal" id="stack">
+        <div>
+          <p class="eyebrow">Technical stack</p>
+          <h2>Built around orchestration, interfaces, and applied AI.</h2>
+          <p class="section-copy">
+            The goal is not only to call an LLM. The goal is to design flows,
+            memory, retrieval, tools, routing, and interfaces that make AI useful.
+          </p>
+        </div>
+
+        <div class="stack-console">
+          <div class="console-bar">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <pre id="stackConsole" aria-label="Animated technical stack"></pre>
+        </div>
+      </section>
+
+      <section class="section-block reveal" id="timeline">
+        <div class="section-heading">
+          <p class="eyebrow">Trajectory</p>
+          <h2>From AI content systems to agentic product builds.</h2>
+        </div>
+
+        <div class="timeline">
+          <article>
+            <span>May 2024 - Present</span>
+            <h3>Agentic AI Developer - Independent Builder</h3>
+            <p>
+              Designs and deploys AI workflows using multi-agent architectures,
+              LangChain, LangGraph, OpenAI APIs, Python microservices, reusable
+              agents, prompt workflows, and dynamic routing logic.
+            </p>
+          </article>
+          <article>
+            <span>May 2023 - May 2024</span>
+            <h3>AI Motivational Content Creator</h3>
+            <p>
+              Built a fully AI-driven motivational YouTube channel with 50K+
+              subscribers using TTS, LLM-based scriptwriting, avatar narration,
+              automated video generation, and multilingual voice models.
+            </p>
+          </article>
+          <article>
+            <span>Education</span>
+            <h3>B.Tech Mechanical Engineering - CMR Engineering College</h3>
+            <p>
+              Graduated in 2024 with CGPA 8.59/10. Diploma in Mechanical
+              Engineering completed in 2021 with CGPA 8.88/10.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block proof-wall reveal" id="proof">
+        <div>
+          <p class="eyebrow">Proof of practice</p>
+          <h2>Certifications, achievements, and signals of execution.</h2>
+        </div>
+        <div class="proof-grid">
+          <article class="magnetic">
+            <h3>Certifications</h3>
+            <ul>
+              <li>Generative AI Prompt Engineering - OpenAI & DeepLearning.AI</li>
+              <li>LangChain for Agents - Udemy</li>
+              <li>Python for AI Systems - Udemy</li>
+              <li>ReAct-based Multi-Agent Architectures - LangGraph implementation</li>
+              <li>STT/TTS Integrations with LLMs - Self-led</li>
+            </ul>
+          </article>
+          <article class="magnetic">
+            <h3>Execution</h3>
+            <ul>
+              <li>MAR-a-THON shortlisted and prize-winning AI cargo forecasting project.</li>
+              <li>Built an AI-powered YouTube channel to 50K+ subscribers in one year.</li>
+              <li>Scored 8.5/10 in Prompt Engineering.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-band reveal" id="contact">
+        <div>
+          <p class="eyebrow">Transmit signal</p>
+          <h2>Looking for AI engineering roles where systems matter.</h2>
+          <p>
+            Open to remote, hybrid, and onsite opportunities involving agentic AI,
+            LLM orchestration, chatbot platforms, NLP workflows, forecasting, and
+            voice AI products.
+          </p>
+        </div>
+        <div class="contact-links">
+          <a class="button primary magnetic" href="mailto:bayojuvikas@gmail.com">Email</a>
+          <a class="button ghost magnetic" href="https://github.com/bayojuvikas">GitHub</a>
+          <a class="button ghost magnetic" href="https://linkedin.com/in/bayoju-vikas-81578726a">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Built with HTML, CSS, JavaScript, Canvas, and AI systems thinking.</p>
+      <p>&copy; <span id="year"></span> Vikas Bayoju</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
